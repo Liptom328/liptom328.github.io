@@ -6,20 +6,27 @@ body {
     background-color: #232c33;
 }
 
+a {
+    color: 3e92cc;
+}
+
 .heading {
     font-family: Arial;
     margin-top:40vh;
     color: #e8e9f3;
 }
+
 .valid {
     font-family: Arial;
     color: #e8e9f3;
     font-size: 20px;
 }
+
 .URL-input, .convert-button-mp3, .convert-button-mp4 {
     font-size:1.3em;
     padding:5px 10px;
 }
+
 .URL-input {
     border-radius:4px 0px 0px 4px;
     width:30em;
@@ -28,9 +35,11 @@ body {
     background: #EEEEEE;
     outline:none;
 }
+
 .URL-input:focus {
     border:2px solid #3e92cc;
 }
+
 .convert-button-mp3, .convert-button-mp4 {
     border-radius:0px 4px 4px 0px;
     border:2px solid #3e92cc;
