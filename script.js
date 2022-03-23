@@ -4,22 +4,13 @@ var heading = document.querySelector('.heading');
 var URLinput = document.querySelector('.URL-input');
 
 convertBtnMp3.addEventListener('click', () => {
-    if(URLinput.value.startsWith("https://youtu.be/") || URLinput.value.startsWith("https://www.youtube.com/watch?v=")) {
-        heading.innerHTML = "Downloading...";
-        sendURL(URLinput.value, 'mp3');
-    } else {
-        heading.innerHTML = "Error: Not a valid URL";
-    }
+    heading.innerHTML = "Downloading...";
+    sendURL(URLinput.value, 'mp3');
 });
 
 convertBtnMp4.addEventListener('click', () => {
-    if(URLinput.value.startsWith("https://youtu.be/") || URLinput.value.startsWith("https://www.youtube.com/watch?v=")) {
-        heading.innerHTML = "Downloading...";
-        console.log(URLinput.value.lenght)
-        sendURL(URLinput.value, 'mp4');
-    } else {
-        heading.innerHTML = "Error: Not a valid URL";
-    }
+    heading.innerHTML = "Downloading...";
+    sendURL(URLinput.value, 'mp4');
 });
 
 function sendURL(URL, format) {
