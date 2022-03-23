@@ -6,20 +6,10 @@ body {
     background-color: #232c33;
 }
 
-a {
-    color: 3e92cc;
-}
-
 .heading {
     font-family: Arial;
     margin-top:40vh;
     color: #e8e9f3;
-}
-
-.valid {
-    font-family: Arial;
-    color: #e8e9f3;
-    font-size: 20px;
 }
 
 .URL-input, .convert-button-mp3, .convert-button-mp4 {
