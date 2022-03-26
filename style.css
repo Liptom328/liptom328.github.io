@@ -6,7 +6,7 @@ body {
     background-image: url(assets/city.jpg);
 }
 
-.heading {
+.heading, .error {
     font-family: Arial;
     margin-top:40vh;
     color: #e8e9f3;
