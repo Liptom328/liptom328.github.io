@@ -3,13 +3,16 @@
 }
 
 body {
-    background-image: url(assets/city.jpg);
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .heading, .error {
     font-family: Arial;
     margin-top:40vh;
-    color: #e8e9f3;
+    color: #EEEEEE;
 }
 .URL-input, .convert-button-mp3, .convert-button-mp4 {
     font-size:1.3em;
